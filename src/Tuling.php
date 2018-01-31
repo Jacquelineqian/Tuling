@@ -35,7 +35,7 @@ class Tuling extends AbstractMessageHandler
             'answer2'        => 'EOS',
             'status'        => true,
             'api'           => 'http://www.tuling123.com/openapi/api',
-            'key'           => '2b700ebfec6593f3e2f452b3bcb8be6e',
+            'key'           => '6de9c389117640319f0df333bfaaedc0',
             'error_message' => '图灵机器人失灵了，暂时没法陪聊了，T_T！',
         ];
         $this->config = array_merge($default_config, $this->config ?? []);
